@@ -4,4 +4,4 @@ before_install:
   – chmod +x gradlew
 
 jdk:
-  - openjdk16
+  - openjdk11
