@@ -7,6 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: $HEROKU_TOKEN
+  app: mznsibook-store
 
 jdk:
   - openjdk11
