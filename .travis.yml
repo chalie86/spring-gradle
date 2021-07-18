@@ -3,5 +3,10 @@ language: java
 before_install:
   – chmod +x gradlew
 
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_TOKEN
+
 jdk:
   - openjdk11
