@@ -5,7 +5,7 @@ before_install:
 
 deploy:
   provider: heroku
-  api_key:
+  api_key: dec00691-70a7-4f1e-b839-81890ec78756
     secure: $HEROKU_TOKEN
   app: "mznsibook-store"
 
