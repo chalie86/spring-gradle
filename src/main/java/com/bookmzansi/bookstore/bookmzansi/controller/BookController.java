@@ -19,6 +19,9 @@ public class BookController {
         BookDto book = BookDto.builder()
                 .title("My First Book tiltle")
                 .build();
+        BookDto bookSecond = BookDto.builder()
+                .title("python second edition")
+                .build();
 
         List<BookDto> books = new ArrayList<>();
         books.add(book);
